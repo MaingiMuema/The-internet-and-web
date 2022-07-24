@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamish</title>
+
+    <!-- Styles-->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+<body>
+    <section class="bg">
+        <nav>
+           <a href="#">Gamish</a>
+        </nav>
+        <section class="background">
+            <div class="container">
+               <h1 onmouseover="h1()">The<span style="color: rgb(255, 81, 0);"> subconscious mind.</span></h1> 
+               <div class="p-section">
+                <p  onmouseover="cont()">People can sometimes wake up knowing the solution to a problem that their
+                    <em>subconscious</em> has been working on.
+                   </p>
+        
+                   <h3 onmouseover="h3()">Wanna know how?.... and - maybe why?</h3>
+                   <button onmouseover="btn()" href="#" id="prompt-button" onclick="newsection()">click here</button>
+                </div>  
+            </div>
+        </section>
+    
+    </section>
+    
+    <script type="text/javascript">
+
+        function cont(){
+            document.getElementsByTagName('span')[0].innerHTML="<br/>Just <br/> Mind"
+        }
+
+        function btn(){
+            document.getElementsByTagName('span')[0].innerHTML="<br/>Subconcious<br/> Mind "
+        }
+
+        function h1(){
+            document.getElementsByTagName('span')[0].innerHTML="<br/>Great<br/> influence "
+        }
+        function h3(){
+            document.getElementsByTagName('span')[0].innerHTML="<br/>Great<br/> Impact "
+        }
+
+
+    </script>
+</body>
+</html>
