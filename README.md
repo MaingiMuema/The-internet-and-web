@@ -1,2 +1,2 @@
 # The-internet-and-web
-This is a course covering the internet and web. 
+Articles about coering topics on the internet and web. 
